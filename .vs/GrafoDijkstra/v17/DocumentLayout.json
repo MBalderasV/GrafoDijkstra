@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\GrafoDijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|solutionrelative:GrafoDijkstra\\GrafoDijkstra.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|solutionrelative:GrafoDijkstra\\Grafo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F5C13B5E-4B9D-4EA2-8902-331B87DF60B7}|GrafoDijkstra\\GrafoDijkstra.vcxproj|solutionrelative:GrafoDijkstra\\Grafo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grafo.cpp",
+              "DocumentMoniker": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.cpp",
+              "RelativeDocumentMoniker": "GrafoDijkstra\\Grafo.cpp",
+              "ToolTip": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.cpp",
+              "RelativeToolTip": "GrafoDijkstra\\Grafo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T14:31:11.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grafo.h",
+              "DocumentMoniker": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.h",
+              "RelativeDocumentMoniker": "GrafoDijkstra\\Grafo.h",
+              "ToolTip": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\Grafo.h",
+              "RelativeToolTip": "GrafoDijkstra\\Grafo.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-29T14:31:06.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GrafoDijkstra.cpp",
+              "DocumentMoniker": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\GrafoDijkstra.cpp",
+              "RelativeDocumentMoniker": "GrafoDijkstra\\GrafoDijkstra.cpp",
+              "ToolTip": "C:\\Users\\manuel.balderas\\source\\repos\\GrafoDijkstra\\GrafoDijkstra\\GrafoDijkstra.cpp",
+              "RelativeToolTip": "GrafoDijkstra\\GrafoDijkstra.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-29T14:25:24.301Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

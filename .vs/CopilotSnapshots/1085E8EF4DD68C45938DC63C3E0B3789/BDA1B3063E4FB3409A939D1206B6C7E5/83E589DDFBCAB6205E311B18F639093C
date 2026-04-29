@@ -1,0 +1,100 @@
+﻿// GrafoDijkstra.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
+#include <iostream>
+#include <climits>
+#include <vector>
+
+using namespace std;
+
+class Grafo
+{
+private:
+    int vertices;
+    vector<vector<int>> matriz;
+
+    int distanciaMin(vector<int>& distancia, vector<bool>& nodos)
+    {
+        // Initialize min value
+        int min = INT_MAX, min_index = -1;
+
+        for (int i = 0; i < vertices; i++)
+            if (nodos[i] == false && distancia[i] <= min)
+            {
+                min = distancia[i];
+                min_index = i;
+            }
+
+        return min_index;
+    }
+
+    void imprimir(vector<int>& distancia)
+    {
+        cout << "Vertice \t Distancia desde origen" << endl;
+        for (int i = 0; i < vertices; i++)
+            cout << i << "\t\t" << distancia[i] << endl;
+    }
+
+public:
+    Grafo(int vertices)
+    {
+        this->vertices = vertices;
+        matriz.resize(vertices, vector<int>(vertices, 0));
+    }
+
+    void CrearArista(int origen, int destino, int costo, bool orden)
+    {
+        matriz[origen][destino] = costo;
+        if (!orden)
+        {
+            matriz[destino][origen] = costo;
+        }
+    }
+
+    void Dijkstra(int origen)
+    {
+        vector<bool> nodos(vertices, false);
+        vector<int> distancia(vertices, INT_MAX);
+
+        distancia[origen] = 0;
+
+        for (int i = 0; i < vertices - 1; i++)
+        {
+            int u = distanciaMin(distancia, nodos);
+
+            nodos[u] = true;
+
+            for (int j = 0; j < vertices; j++)
+            {
+                if (!nodos[j] && matriz[u][j] != 0 &&
+                    distancia[u] != INT_MAX && distancia[u] + matriz[u][j] < distancia[j])
+                {
+                    distancia[j] = distancia[u] + matriz[u][j];
+                }
+            }
+        }
+        imprimir(distancia);
+    }
+};
+
+int main()
+{
+    Grafo test(9);
+
+    test.CrearArista(0, 1, 4, false);
+    test.CrearArista(0, 7, 8, false);
+    test.CrearArista(1, 2, 8, false);
+    test.CrearArista(1, 7, 11, false);
+    test.CrearArista(2, 3, 7, false);
+    test.CrearArista(2, 5, 4, false);
+    test.CrearArista(2, 8, 2, false);
+    test.CrearArista(3, 4, 9, false);
+    test.CrearArista(3, 5, 14, false);
+    test.CrearArista(4, 5, 10, false);
+    test.CrearArista(5, 6, 2, false);
+    test.CrearArista(6, 7, 1, false);
+    test.CrearArista(6, 8, 6, false);
+    test.CrearArista(7, 8, 7, false);
+
+    test.Dijkstra(0);
+
+    return 0;
+}
